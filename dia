@@ -32,4 +32,16 @@ if __name__ == "__main__":
     root.right = Node(3)
     root.left.left = Node(4)
     root.left.right = Node(5)
-    print(diameter(root))
+    print(diameter(root))   
+    
+        
+        # output -> 4
+    
+    
+            1
+           / \
+          2   3
+         / \
+        4   5
+    
+    
